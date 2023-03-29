@@ -19,8 +19,8 @@ body {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/mental.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/mental.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image/BackHeadimg.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image/BackHeadimg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,6 +158,8 @@ body {
   font-size: 10px;
   color: white;
   text-align: center;
+  justify-content: space-evenly;
+  display: flex;
   
 }
 
@@ -238,6 +240,39 @@ body {
   transform: rotateY(180deg);
 } 
 
+.logo img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+.info h5 {
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.follow h5 {
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.sosmed img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.link a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.footerwrap {
+  background-color: grey;
+}
 @media only screen and (max-width: 768px) {
   .about {
       display: block;
